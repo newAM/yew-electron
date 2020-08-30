@@ -1,19 +1,19 @@
 {
-    "name": "yew-electron",
-    "version": "0.1.0",
-    "description": "A minimal Yew + Electron application",
-    "main": "static/main.js",
-    "scripts": {
-        "prestart": "wasm-pack build --target web --out-name wasm --out-dir ./static",
-        "start": "electron ."
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/newAM/yew-electron.git"
-    },
-    "author": "Alex M.",
-    "devDependencies": {
-        "electron": "^10.1.0"
-    }
+  "name": "yew-electron",
+  "version": "0.1.0",
+  "description": "A minimal Yew + Electron application",
+  "main": "static/main.js",
+  "scripts": {
+    "prestart": "wasm-pack build --target web --out-name wasm --out-dir ./static",
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newAM/yew-electron.git"
+  },
+  "author": "Alex M.",
+  "devDependencies": {
+    "electron": "^10.1.0"
+  }
 }
