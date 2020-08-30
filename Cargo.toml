@@ -1,0 +1,15 @@
+[package]
+name = "yew-electron"
+version = "0.1.0"
+authors = ["Alex M. <alexmgit@protonmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+yew = "0.17"
+wasm-bindgen = "0.2.67"
